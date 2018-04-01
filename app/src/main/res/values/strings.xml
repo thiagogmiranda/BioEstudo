@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BioEstudo</string>
+    <string name="title_activity_main">BioEstudo</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+    <string name="nav_header_title">Biomedicina</string>
+    <string name="nav_header_subtitle">Tipos de transporte</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">Sobre</string>
+    <string name="info_passivo">
+        O transporte passivo é o transporte que ocorre entre duas soluções com concentrações de solutos diferentes, que tem por objetivo igualar as concentrações, tornando-as isotônicas. Este processo ocorre sem o gasto de energia. Ele se divide em dois tipos: difusão e osmose.
+    </string>
+    <string name="info_difusao">
+        Consiste na passagem das moléculas do soluto, do local de maior para o local de menor concentração, até estabelecer um equilíbrio.
+    </string>
+    <string name="info_difusao_facilitada">
+        Esse processo ocorre quando uma substância passa pela membrana da célula com o auxílio das proteínas (permeases). Esse procedimento depende do tamanho da molécula e também a capacidade de dissolver em lipídios.
+    </string>
+    <string name="info_osmose">
+        É o deslocamento do solvente (água) do meio hipotônico para o meio hipertônico. Quando dois meios possuem a mesma concentração dizem que são isotônicos.
+    </string>
+    <string name="info_ativo">
+        Neste processo, as substâncias são transportadas com gasto de energia, podendo ocorrer do local de menor para o de maior concentração (contra o gradiente de concentração).
+    </string>
+    <string name="info_bomba_sodio_potassio">
+        Esse transporte as substâncias se movimentam de um local com pouca concentração para outro com maior concentração. É um transporte que necessita de ajuda de proteínas especiais que realizam um trabalho com grande consumo de energia (ATP).
+    </string>
+    <string name="info_comparacao_p1">
+        O transporte ativo é aquele em que é necessário o gasto energético para o transporte de uma molécula ou partícula para o interior da célula. Em outras palavras, gasta-se energia (ATP) para que este feito seja realizado.
+    </string>
+    <string name="info_comparacao_p2">
+        Já o transporte passivo, não precisa de gasto energético, visto que existe um gradiente de concentração. Quando o gradiente está a favor, existe a entrada das substâncias na célula de forma passiva.
+    </string>
+</resources>

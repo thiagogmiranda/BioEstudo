@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_transporte_passivo"
+            android:title="Transporte passivo" />
+        <item
+            android:id="@+id/nav_difusao"
+            android:title="Difusão" />
+        <item
+            android:id="@+id/nav_difusao_facilitada"
+            android:title="Difusão facilitada" />
+        <item
+            android:id="@+id/nav_osmose"
+            android:title="Osmose" />
+        <item
+            android:id="@+id/nav_transporte_ativo"
+            android:title="Transporte ativo" />
+        <item
+            android:id="@+id/nav_bomba_sodio_potassio"
+            android:title="Bomba de sódio e potássio" />
+        <item
+            android:id="@+id/nav_comparacao"
+            android:title="Comparação dos transportes" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_exercicios"
+                android:title="Exercícios" />
+            <item
+                android:id="@+id/nav_video_aulas"
+                android:title="Vídeo aulas" />
+        </menu>
+    </item>
+
+</menu>
