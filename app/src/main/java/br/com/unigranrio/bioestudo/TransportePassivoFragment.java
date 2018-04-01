@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.MediaController;
 import android.widget.VideoView;
 
 
@@ -65,7 +67,17 @@ public class TransportePassivoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_transporte_passivo, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_transporte_passivo, container, false);
+
+        VideoView videoView = rootView.findViewById(R.id.video);
+        MediaController mc = new MediaController(getActivity());
+        String path = "android.resource://" + getActivity().getPackageName() + "/" + R.raw.transporte_passivo;
+
+        videoView.setVideoURI(Uri.parse(path));
+        videoView.setMediaController(mc);
+        videoView.seekTo(100);
+
+        return rootView;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
