@@ -162,10 +162,10 @@ public class ExerciciosFragment extends Fragment {
                 "plasmática. Para que seu transporte ocorra para o interior da célula, é fundamental a " +
                 "ajuda de proteínas chamadas de permeases. Esse tipo de transporte recebe o nome de:");
 
-        q3.adicionarAlternativa("a","difusão simples");
-        q3.adicionarAlternativa("b","difusão facilitada");
-        q3.adicionarAlternativa("c","osmose");
-        q3.adicionarAlternativa("d","bomba de sódio e potássio");
+        q4.adicionarAlternativa("a","difusão simples");
+        q4.adicionarAlternativa("b","difusão facilitada");
+        q4.adicionarAlternativa("c","osmose");
+        q4.adicionarAlternativa("d","bomba de sódio e potássio");
 
         q4.setAlternativaCorreta("Alternativa “d”. Na difusão facilitada, as substâncias acoplam-se " +
                 "às proteínas da membrana para que ocorra o transporte.");

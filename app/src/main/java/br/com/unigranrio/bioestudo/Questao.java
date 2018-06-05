@@ -2,6 +2,7 @@ package br.com.unigranrio.bioestudo;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class Questao {
     private String texto;
@@ -9,7 +10,7 @@ public class Questao {
     private String alternativaCorreta;
 
     public Questao() {
-        alternativas = new HashMap<>();
+        alternativas = new TreeMap<>();
     }
 
     public String getTexto() {

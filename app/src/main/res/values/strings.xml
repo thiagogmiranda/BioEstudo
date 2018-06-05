@@ -32,4 +32,7 @@
     <string name="info_comparacao_p2">
         Já o transporte passivo, não precisa de gasto energético, visto que existe um gradiente de concentração. Quando o gradiente está a favor, existe a entrada das substâncias na célula de forma passiva.
     </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

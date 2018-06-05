@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity
         BombaSodioPotassioFragment.OnFragmentInteractionListener,
         ComparacaoFragment.OnFragmentInteractionListener,
         ExerciciosFragment.OnFragmentInteractionListener,
-        VideoAulasFragment.OnFragmentInteractionListener
+        VideoAulasFragment.OnFragmentInteractionListener,
+        InitialFragment.OnFragmentInteractionListener
 {
 
     @Override
@@ -57,8 +58,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new TransportePassivoFragment()).commit();
-        setTitle("Transporte passivo");
+        getSupportFragmentManager().beginTransaction().replace(R.id.flContent, new InitialFragment()).commit();
     }
 
     @Override
